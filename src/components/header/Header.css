@@ -1,0 +1,38 @@
+.header {
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+}
+
+.headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+
+}
+
+a > span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a > span:hover {
+    color: rgb(242, 255, 0);
+    font-size:xx-large;
+    z-index: 1000;
+    transition: .2s;
+    
+}
+
+.header__icon {
+    width: 80px;
+    cursor: pointer;
+}
+
+.user__avatar {
+    font-size: 2rem;
+}
